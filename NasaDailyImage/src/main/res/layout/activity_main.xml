@@ -1,55 +1,84 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+    <ScrollView
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollViewNasa"
+            >
+
+        <RelativeLayout
+
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context=".NasaDailyImage">
+
+            <TextView android:id="@+id/imageTitle"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/test_image_title"
+                      android:layout_alignParentTop="true"
+                      android:layout_alignParentLeft="true"/>
+
+            <TextView android:id="@+id/imageDate"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="@string/test_image_date"
+                      android:layout_below="@+id/imageTitle"
+                      android:layout_alignLeft="@+id/imageTitle"/>
+
+            <ImageView
+                    android:id="@+id/imageDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/test_image"
+                    android:contentDescription=""
+                    android:layout_alignParentEnd="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_alignLeft="@+id/imageTitle"
+                    android:longClickable="false"
+                    android:layout_below="@+id/imageDate"
+                    android:adjustViewBounds="true"/>
+
+            <TextView android:id="@+id/imageDescription"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="@string/test_image_description"
+                      android:layout_alignLeft="@+id/imageDisplay"
+                      android:layout_below="@+id/imageDisplay"
+                      android:singleLine="false"
+                      android:textIsSelectable="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
     <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff8D8D8D"
+            android:padding="5dp"
+            android:gravity="bottom"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true">
 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        tools:context=".NasaDailyImage">
-
-        <TextView android:id="@+id/imageTitle"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:text="@string/test_image_title"
-                  android:layout_alignParentTop="true"
-                  android:layout_alignParentLeft="true"/>
-
-        <TextView android:id="@+id/imageDate"
-                  android:layout_width="wrap_content"
-                  android:layout_height="match_parent"
-                  android:text="@string/test_image_date"
-                  android:layout_below="@+id/imageTitle"
-                  android:layout_alignLeft="@+id/imageTitle"/>
-
-        <ImageView
-                android:id="@+id/imageDisplay"
+        <Button android:text="@string/refresh"
+                android:onClick="onRefresh"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/test_image"
-                android:contentDescription=""
-                android:layout_alignParentEnd="false"
-                android:focusable="false"
-                android:focusableInTouchMode="false"
-                android:layout_alignWithParentIfMissing="true"
-                android:layout_alignLeft="@+id/imageTitle"
-                android:longClickable="false"
-                android:layout_below="@+id/imageDate"
-                android:adjustViewBounds="true"/>
-
-        <TextView android:id="@+id/imageDescription"
-                  android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:text="@string/test_image_description"
-                  android:layout_alignParentBottom="true"
-                  android:layout_alignLeft="@+id/imageDisplay"
-                  android:layout_below="@+id/imageDisplay"
-                  android:singleLine="false"
-                  android:textIsSelectable="true"/>
-
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
     </RelativeLayout>
-</ScrollView>
+</RelativeLayout>
+
