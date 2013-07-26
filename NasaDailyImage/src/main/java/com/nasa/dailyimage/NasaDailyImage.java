@@ -2,6 +2,7 @@ package com.nasa.dailyimage;
 
 
 import android.app.ProgressDialog;
+import android.app.WallpaperManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -11,10 +12,13 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
+
+import static android.provider.MediaStore.Images.Media.getBitmap;
 
 
 public class NasaDailyImage extends Activity {
@@ -22,6 +26,7 @@ public class NasaDailyImage extends Activity {
     public ProgressDialog dialog;
     public Handler handler;
     public IotdHandler iotdHandler = null;
+    public Bitmap image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,14 +84,40 @@ public class NasaDailyImage extends Activity {
         ImageView imageView = (ImageView) findViewById(R.id.imageDisplay);
         titleView.setText(title);
         dateView.setText(date);
-        Bitmap bm = BitmapFactory.decodeStream(new URL(imageUrl).openStream());
+        image = BitmapFactory.decodeStream(new URL(imageUrl).openStream());
         descriptionView.setText(description);
-        imageView.setImageBitmap(bm);
+        imageView.setImageBitmap(image);
 
         System.out.println(" \n==== INFORMAÇÕES =====\n ");
         System.out.println(" \n====   TITULO    =====\n " + title);
         System.out.println(" \n====    DATA     =====\n " + date);
 
+    }
+
+    public void onSetWallPaper(){
+
+        Thread th = new Thread(){
+            public void run(){
+                WallpaperManager wallpaperManager = WallpaperManager.getInstance(NasaDailyImage.this);
+                try {
+                    wallpaperManager.setBitmap(image);
+                    showToast("Papel de Parede Configurado!");
+                }catch (Exception e){
+                    e.printStackTrace();
+                    showToast("Erro!");
+                }
+            }
+        };
+        th.start();
+    }
+
+    public void showToast(final String strMsg){
+        handler.post(
+                new Runnable() {
+                    public void run() {
+                        Toast.makeText(NasaDailyImage.this, strMsg, Toast.LENGTH_SHORT).show();
+                    }
+                });
     }
 
     @Override

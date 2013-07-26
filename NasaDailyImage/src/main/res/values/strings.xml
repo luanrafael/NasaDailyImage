@@ -8,4 +8,5 @@
     <string name="test_image_description">This mosaic image taken by NASA\'s Wide-field Infrared Survey Explorer, or WISE, feartures three nebulae that are parte of the glant Orion Molecular Cloud—the Flame nebula, the Horsehead nebula and NGC 2023. Pespite its name
     </string>
     <string name="refresh">Atualizar</string>
+    <string name="setWallpaper">Set Wallpaper</string>
 </resources>

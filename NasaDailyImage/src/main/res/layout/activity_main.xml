@@ -76,9 +76,18 @@
                 android:onClick="onRefresh"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
+                android:id="@+id/button"
                 android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"/>
+                android:layout_toLeftOf="@+id/button2"/>
+
+        <Button android:text="@string/setWallpaper"
+                android:onClick="onSetWallPaper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="32dp"
+                android:id="@+id/button2"/>
     </RelativeLayout>
 </RelativeLayout>
 
