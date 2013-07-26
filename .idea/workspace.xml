@@ -24,13 +24,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61104d0e-b61b-4a79-8946-9bfa184dba28" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java" afterPath="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/source/r/debug/com/nasa/dailyimage/R.java" afterPath="$PROJECT_DIR$/NasaDailyImage/build/source/r/debug/com/nasa/dailyimage/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NasaDailyImage.iws" />
@@ -558,7 +551,11 @@
       <created>1374861610431</created>
       <updated>1374861610431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Set WallPaper - Toast - Com Erros a serem corrigidos">
+      <created>1374864162490</created>
+      <updated>1374864162490</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -683,7 +680,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado botão de refresh..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Set WallPaper - Toast - Com Erros a serem corrigidos" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -700,6 +697,7 @@
     <MESSAGE value="Segundo projeto Android - Livro - Head First Android Development" />
     <MESSAGE value="Bug imagem auto ajuste corrigido" />
     <MESSAGE value="Adicionado botão de refresh..." />
+    <MESSAGE value="Set WallPaper - Toast - Com Erros a serem corrigidos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
