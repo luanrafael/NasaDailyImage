@@ -13,7 +13,7 @@
         tools:context=".NasaDailyImage">
 
         <TextView android:id="@+id/imageTitle"
-                  android:layout_width="wrap_content"
+                  android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:text="@string/test_image_title"
                   android:layout_alignParentTop="true"
@@ -21,7 +21,7 @@
 
         <TextView android:id="@+id/imageDate"
                   android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
+                  android:layout_height="match_parent"
                   android:text="@string/test_image_date"
                   android:layout_below="@+id/imageTitle"
                   android:layout_alignLeft="@+id/imageTitle"/>
@@ -36,12 +36,14 @@
                 android:focusable="false"
                 android:focusableInTouchMode="false"
                 android:layout_alignWithParentIfMissing="true"
-                android:layout_below="@+id/imageTitle"
-                android:layout_alignLeft="@+id/imageTitle"/>
+                android:layout_alignLeft="@+id/imageTitle"
+                android:longClickable="false"
+                android:layout_below="@+id/imageDate"
+                android:adjustViewBounds="true"/>
 
         <TextView android:id="@+id/imageDescription"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
                   android:text="@string/test_image_description"
                   android:layout_alignParentBottom="true"
                   android:layout_alignLeft="@+id/imageDisplay"
