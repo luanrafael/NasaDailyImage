@@ -94,7 +94,7 @@ public class NasaDailyImage extends Activity {
 
     }
 
-    public void onSetWallPaper(){
+    public void onSetWallPaper(View view){
 
         Thread th = new Thread(){
             public void run(){

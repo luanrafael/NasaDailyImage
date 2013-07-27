@@ -24,6 +24,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61104d0e-b61b-4a79-8946-9bfa184dba28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NasaDailyImage/NasaDailyImage-NasaDailyImage.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/NasaDailyImage.iml" afterPath="$PROJECT_DIR$/NasaDailyImage/NasaDailyImage.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java" afterPath="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/source/r/debug/com/nasa/dailyimage/R.java" afterPath="$PROJECT_DIR$/NasaDailyImage/build/source/r/debug/com/nasa/dailyimage/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/menu/nasa_daily_image.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/menu/nasa_daily_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/NasaDailyImage/build/res/all/debug/values-v11/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NasaDailyImage.iws" />
@@ -42,6 +52,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -78,24 +89,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java" line="114" class="com.nasa.dailyimage.NasaDailyImage" package="com.nasa.dailyimage">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -107,37 +101,20 @@
     <leaf>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="47" selection-start="3714" selection-end="3714" vertical-scroll-proportion="-4.206897" vertical-offset="1123" max-vertical-offset="1485">
-              <folding>
-                <element signature="e#1107#1133#0" expanded="true" />
-                <element signature="e#1458#1483#0" expanded="true" />
-                <element signature="e#2568#2600#0" expanded="true" />
-                <element signature="e#3644#3666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="11" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="540">
-              <folding>
-                <element signature="e#413#431#0" expanded="true" />
-                <element signature="e#579#597#0" expanded="true" />
-              </folding>
+            <state line="83" column="47" selection-start="3700" selection-end="3714" vertical-scroll-proportion="-4.206897" vertical-offset="1123" max-vertical-offset="1485">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml">
+      <file leaf-file-name="IotdHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/IotdHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state line="26" column="13" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2205">
               <folding />
             </state>
           </provider>
@@ -146,17 +123,20 @@
       <file leaf-file-name="NasaDailyImage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="62" selection-start="3429" selection-end="3429" vertical-scroll-proportion="0.33628318" vertical-offset="1176" max-vertical-offset="1785">
+            <state line="130" column="0" selection-start="4163" selection-end="4163" vertical-scroll-proportion="4.7345133" vertical-offset="0" max-vertical-offset="1695">
               <folding>
-                <element signature="e#1111#2067#0" expanded="true" />
-                <element signature="e#1475#1947#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-                <element signature="e#2065#2066#0" expanded="true" />
-                <element signature="e#3142#3590#0" expanded="true" />
-                <element signature="e#3579#3580#0" expanded="true" />
-                <element signature="e#3705#3897#0" expanded="true" />
-                <element signature="e#3878#3879#0" expanded="true" />
+                <element signature="e#3151#3599#0" expanded="true" />
+                <element signature="e#3588#3589#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NasaDailyImage/build/source/r/debug/com/nasa/dailyimage/R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="5" selection-start="870" selection-end="870" vertical-scroll-proportion="-8.4" vertical-offset="45" max-vertical-offset="1005">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,6 +167,26 @@
         <entry>
           <key>
             <ExternalProjectPojo>
+              <option name="name" value="NasaDailyImage" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="NasaDailyImage-NasaDailyImage" />
+                <option name="path" value="$PROJECT_DIR$/NasaDailyImage" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="NasaDailyImage" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
               <option name="name" value="NasaDailyImageProject" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
@@ -208,7 +208,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1374758399882" />
+        <entry key="$PROJECT_DIR$" value="1374889753842" />
       </map>
     </option>
   </component>
@@ -218,17 +218,17 @@
         <option value="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/IotdHandlerListener.java" />
         <option value="$PROJECT_DIR$/NasaDailyImage/build/source/r/debug/com/nasa/dailyimage/R.java" />
         <option value="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/IotdHandler.java" />
-        <option value="$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/NasaDailyImage/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java" />
         <option value="$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1489" />
-    <option name="y" value="156" />
-    <option name="width" value="1317" />
+    <option name="x" value="1360" />
+    <option name="y" value="24" />
+    <option name="width" value="1360" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -245,7 +245,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -257,35 +257,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,48 +271,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImageProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImageProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImageProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NasaDailyImage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NasaDailyImage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,6 +307,7 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0123456789ABCDEF" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Test" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
@@ -369,7 +320,7 @@
       <recent name="$PROJECT_DIR$/NasaDailyImage/src/main/res/drawable-hdpi" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.NasaDailyImage">
+  <component name="RunManager" selected="Android Application.NasaDailyImage-NasaDailyImage">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -477,8 +428,27 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="NasaDailyImage-NasaDailyImage" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="NasaDailyImage-NasaDailyImage" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.NasaDailyImage" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.NasaDailyImage-NasaDailyImage" />
     </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -579,16 +549,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1489" y="156" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="1360" y="24" width="1360" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991317" sideWeight="0.61513686" order="3" side_tool="true" content_ui="tabs" x="1604" y="285" width="1117" height="544" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.49960536" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991317" sideWeight="0.6135266" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38486314" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.50039464" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -601,12 +569,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20678769" sideWeight="0.61513686" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20763358" sideWeight="0.61513686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991317" sideWeight="0.61513686" order="3" side_tool="true" content_ui="tabs" x="1604" y="285" width="1117" height="544" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -703,34 +673,31 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="885">
-          <folding>
-            <element signature="e#1107#1133#0" expanded="true" />
-            <element signature="e#1458#1483#0" expanded="true" />
-            <element signature="e#2568#2600#0" expanded="true" />
-            <element signature="e#3644#3666#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
+          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="12" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="810">
-          <folding>
-            <element signature="e#1107#1133#0" expanded="true" />
-            <element signature="e#1458#1483#0" expanded="true" />
-            <element signature="e#2568#2600#0" expanded="true" />
-            <element signature="e#3644#3666#0" expanded="true" />
-          </folding>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="23" column="54" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="885">
+          <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="12" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="810">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml">
@@ -762,65 +729,64 @@
         <state line="6" column="19" selection-start="157" selection-end="157" vertical-scroll-proportion="0.12975779" vertical-offset="0" max-vertical-offset="1065" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/IotdHandlerListener.java">
+    <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.2284264" vertical-offset="0" max-vertical-offset="591" />
+        <state line="29" column="11" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.7360406" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NasaDailyImage/build/source/r/debug/com/nasa/dailyimage/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1949" selection-end="2454" vertical-scroll-proportion="0.9044586" vertical-offset="346" max-vertical-offset="930" />
+        <state line="22" column="5" selection-start="870" selection-end="870" vertical-scroll-proportion="-8.4" vertical-offset="45" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/IotdHandlerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="145" selection-end="145" vertical-scroll-proportion="0.38352272" vertical-offset="0" max-vertical-offset="352">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/IotdHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.042613637" vertical-offset="0" max-vertical-offset="2430" />
+        <state line="26" column="13" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="2205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NasaDailyImage/build/source/buildConfig/debug/com/nasa/dailyimage/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="100" selection-end="100" vertical-scroll-proportion="0.13761468" vertical-offset="0" max-vertical-offset="327">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="12" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.53097343" vertical-offset="0" max-vertical-offset="339">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="47" selection-start="3714" selection-end="3714" vertical-scroll-proportion="-4.206897" vertical-offset="1123" max-vertical-offset="1485">
-          <folding>
-            <element signature="e#1107#1133#0" expanded="true" />
-            <element signature="e#1458#1483#0" expanded="true" />
-            <element signature="e#2568#2600#0" expanded="true" />
-            <element signature="e#3644#3666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="540">
-          <folding>
-            <element signature="e#413#431#0" expanded="true" />
-            <element signature="e#579#597#0" expanded="true" />
-          </folding>
+        <state line="83" column="47" selection-start="3700" selection-end="3714" vertical-scroll-proportion="-4.206897" vertical-offset="1123" max-vertical-offset="1485">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NasaDailyImage/src/main/java/com/nasa/dailyimage/NasaDailyImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="62" selection-start="3429" selection-end="3429" vertical-scroll-proportion="0.33628318" vertical-offset="1176" max-vertical-offset="1785">
+        <state line="130" column="0" selection-start="4163" selection-end="4163" vertical-scroll-proportion="4.7345133" vertical-offset="0" max-vertical-offset="1695">
           <folding>
-            <element signature="e#1111#2067#0" expanded="true" />
-            <element signature="e#1475#1947#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#3142#3590#0" expanded="true" />
-            <element signature="e#3579#3580#0" expanded="true" />
-            <element signature="e#3705#3897#0" expanded="true" />
-            <element signature="e#3878#3879#0" expanded="true" />
+            <element signature="e#3151#3599#0" expanded="true" />
+            <element signature="e#3588#3589#0" expanded="true" />
           </folding>
         </state>
       </provider>
